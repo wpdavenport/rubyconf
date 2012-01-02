@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 10140ec9d55b977576a4549c09da6d76eb3b3f16 William Davenport <bill.davenport@livingsocial.com> 1322959780 -0500	clone: from git@github.com:wpdavenport/rubyconf.git
-10140ec9d55b977576a4549c09da6d76eb3b3f16 32c33f553ab48e4c9f52c52902339457f2a6cc53 William Davenport <bill.davenport@livingsocial.com> 1322960110 -0500	commit: fixes
-32c33f553ab48e4c9f52c52902339457f2a6cc53 fcb41b4b57a7a6a83f5d602d20edc15aeff67592 William Davenport <bill.davenport@livingsocial.com> 1325521978 -0500	rebase -i (finish): refs/heads/master onto f76ae8e
-fcb41b4b57a7a6a83f5d602d20edc15aeff67592 1efff955176245f3c0a189cc0d9340a5244f0a28 William Davenport <bill.davenport@livingsocial.com> 1325522133 -0500	rebase -i (finish): refs/heads/master onto 31f9640
