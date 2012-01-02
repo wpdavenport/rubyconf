@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @attendee.company %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @attendee.last_name %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%= @attendee.first_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @attendee.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @attendee.phone %>
+</p>
+
+
+<%= link_to 'Edit', edit_attendee_path(@attendee) %> |
+<%= link_to 'Back', attendees_path %>

@@ -1,0 +1,83 @@
+0000000000000000000000000000000000000000 10140ec9d55b977576a4549c09da6d76eb3b3f16 William Davenport <bill.davenport@livingsocial.com> 1322959780 -0500	clone: from git@github.com:wpdavenport/rubyconf.git
+10140ec9d55b977576a4549c09da6d76eb3b3f16 32c33f553ab48e4c9f52c52902339457f2a6cc53 William Davenport <bill.davenport@livingsocial.com> 1322960110 -0500	commit: fixes
+32c33f553ab48e4c9f52c52902339457f2a6cc53 32c33f553ab48e4c9f52c52902339457f2a6cc53 William Davenport <bill.davenport@livingsocial.com> 1325521300 -0500	checkout: moving from master to 32c33f553ab48e4c9f52c52902339457f2a6cc53
+32c33f553ab48e4c9f52c52902339457f2a6cc53 32c33f553ab48e4c9f52c52902339457f2a6cc53 William Davenport <bill.davenport@livingsocial.com> 1325521300 -0500	rebase -i (finish): returning to refs/heads/master
+32c33f553ab48e4c9f52c52902339457f2a6cc53 7d6e27705bdd74759f0e32d6353b3a225c75ded3 William Davenport <bill.davenport@livingsocial.com> 1325521538 -0500	checkout: moving from master to 7d6e277
+7d6e27705bdd74759f0e32d6353b3a225c75ded3 f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521538 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 4e130495673f96e3b23bad88342b678028aa16ee William Davenport <bill.davenport@livingsocial.com> 1325521538 -0500	rebase -i (squash): # This is a combination of 2 commits.
+4e130495673f96e3b23bad88342b678028aa16ee f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521538 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 13cd499e2285476e99ccc9bd07d6dc5e3bb4c764 William Davenport <bill.davenport@livingsocial.com> 1325521538 -0500	rebase -i (squash): # This is a combination of 3 commits.
+13cd499e2285476e99ccc9bd07d6dc5e3bb4c764 f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 ff63ee39d2a4b8a7e80fecfd7dbe244cc9850dea William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): # This is a combination of 4 commits.
+ff63ee39d2a4b8a7e80fecfd7dbe244cc9850dea f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 54138094546bf08ffc84a1e0a5661a893c42c873 William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): # This is a combination of 5 commits.
+54138094546bf08ffc84a1e0a5661a893c42c873 f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 99d5e8c09e24462943bb9869bed02d2eb878d4af William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): # This is a combination of 6 commits.
+99d5e8c09e24462943bb9869bed02d2eb878d4af f76ae8e498ea685c3b7100401f276a48a4e2f0d0 William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): updating HEAD
+f76ae8e498ea685c3b7100401f276a48a4e2f0d0 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521539 -0500	rebase -i (squash): apparently heroku doesn't like therubyracer-heroku even though they recommend it for rails 3.1
+209f7de56b6e511319def45dedc75407af1516ce e9708b898c2f02823e9cf1532bdb8573d036e662 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (pick): trying to get started on the first flow; hitting a missing action 'show', hmm.
+e9708b898c2f02823e9cf1532bdb8573d036e662 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce ca1dcbd0b7c0c8415c38337c69a37ee099b65d00 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 2 commits.
+ca1dcbd0b7c0c8415c38337c69a37ee099b65d00 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 9074819525515bf2fba16cc001104bad219e4e98 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 3 commits.
+9074819525515bf2fba16cc001104bad219e4e98 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 798aabef18e027f98aec9b8087bbfa5c15457668 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 4 commits.
+798aabef18e027f98aec9b8087bbfa5c15457668 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce f5d5bdc60e392ce796d8b81f3d6c6e02afe81d9a William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 5 commits.
+f5d5bdc60e392ce796d8b81f3d6c6e02afe81d9a 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce e4376608f7048733f045b2fdc4caabfb4b4b888c William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 6 commits.
+e4376608f7048733f045b2fdc4caabfb4b4b888c 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce ee115d5856ca6df852dd2e0da424c6af53a761fc William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 7 commits.
+ee115d5856ca6df852dd2e0da424c6af53a761fc 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 36ccba43a82f65aaad099b3286f28d21230fa138 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 8 commits.
+36ccba43a82f65aaad099b3286f28d21230fa138 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce db670e1afa3f9c1f83ef6b7f0db8fb5da52e97d3 William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): # This is a combination of 9 commits.
+db670e1afa3f9c1f83ef6b7f0db8fb5da52e97d3 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521812 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 6f5531a7d18f0db6161c05fd713b43012614f767 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 10 commits.
+6f5531a7d18f0db6161c05fd713b43012614f767 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 84b69f8a2e75037e3dd65a242df6357cacf285dd William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 11 commits.
+84b69f8a2e75037e3dd65a242df6357cacf285dd 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 14e8f7d11d09e6070cf648cd086c08d513980e53 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 12 commits.
+14e8f7d11d09e6070cf648cd086c08d513980e53 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 64cd32901a08991d4ad3a5ab6bdb721661402fd4 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 13 commits.
+64cd32901a08991d4ad3a5ab6bdb721661402fd4 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce cc8cba1c1bdb2422eafd2445e0122c6bb32bd1d1 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 14 commits.
+cc8cba1c1bdb2422eafd2445e0122c6bb32bd1d1 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 2b5e7b3f63316bd57b43b79c99595e217962ba38 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 15 commits.
+2b5e7b3f63316bd57b43b79c99595e217962ba38 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 6d9a3f22e1081c043084a190f1c10202ec358dfd William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 16 commits.
+6d9a3f22e1081c043084a190f1c10202ec358dfd 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce e0bb4fc84bf119e2eaaf6b4ecbc9766f247b4bcb William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 17 commits.
+e0bb4fc84bf119e2eaaf6b4ecbc9766f247b4bcb 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 0e37b0a932239111288e3ee3a6798e5f9384b660 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 18 commits.
+0e37b0a932239111288e3ee3a6798e5f9384b660 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 2883c2eeb10d2023f265028fc1d7dddd957e41a3 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 19 commits.
+2883c2eeb10d2023f265028fc1d7dddd957e41a3 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 794828614062f3492fb1e98632e3af48f66058d8 William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 20 commits.
+794828614062f3492fb1e98632e3af48f66058d8 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 2b105edfbf0d37e16cf75299254992f448bf18ac William Davenport <bill.davenport@livingsocial.com> 1325521813 -0500	rebase -i (squash): # This is a combination of 21 commits.
+2b105edfbf0d37e16cf75299254992f448bf18ac 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce 667db441dff3a65ab22177ce4e1393342588f422 William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): # This is a combination of 22 commits.
+667db441dff3a65ab22177ce4e1393342588f422 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce a30d11813c04a39b9ee5258aae8ec8b9e5939872 William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): # This is a combination of 23 commits.
+a30d11813c04a39b9ee5258aae8ec8b9e5939872 209f7de56b6e511319def45dedc75407af1516ce William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): updating HEAD
+209f7de56b6e511319def45dedc75407af1516ce fcb41b4b57a7a6a83f5d602d20edc15aeff67592 William Davenport <bill.davenport@livingsocial.com> 1325521814 -0500	rebase -i (squash): trying to get started on the first flow
+fcb41b4b57a7a6a83f5d602d20edc15aeff67592 fcb41b4b57a7a6a83f5d602d20edc15aeff67592 William Davenport <bill.davenport@livingsocial.com> 1325521978 -0500	rebase -i (finish): returning to refs/heads/master
+fcb41b4b57a7a6a83f5d602d20edc15aeff67592 31f964089fe265261ccb5c14a00bb74d7b5334d6 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	checkout: moving from master to 31f9640
+31f964089fe265261ccb5c14a00bb74d7b5334d6 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 62806357f68470507ee30627ccf2edda2027288e William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): # This is a combination of 2 commits.
+62806357f68470507ee30627ccf2edda2027288e 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 2163c3e5c0ed93dde89a70c63c59005e2bd1f9ad William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): # This is a combination of 3 commits.
+2163c3e5c0ed93dde89a70c63c59005e2bd1f9ad 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 f11ee4d701aebc89008ffb96a04eac6523f60921 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): # This is a combination of 4 commits.
+f11ee4d701aebc89008ffb96a04eac6523f60921 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 66895947d9fa0961b7c783c6e77a750643a9e75d William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): # This is a combination of 5 commits.
+66895947d9fa0961b7c783c6e77a750643a9e75d 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 430601797ad447c374bf04da5eb561d40b2a7331 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): # This is a combination of 6 commits.
+430601797ad447c374bf04da5eb561d40b2a7331 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522078 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 c9eec2a9751ad0f2509a5dc7351ec4977e734938 William Davenport <bill.davenport@livingsocial.com> 1325522079 -0500	rebase -i (squash): # This is a combination of 7 commits.
+c9eec2a9751ad0f2509a5dc7351ec4977e734938 38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 William Davenport <bill.davenport@livingsocial.com> 1325522079 -0500	rebase -i (squash): updating HEAD
+38fb7cd0c66f4c2f0b10c90fa1535f856ae7a0d0 1efff955176245f3c0a189cc0d9340a5244f0a28 William Davenport <bill.davenport@livingsocial.com> 1325522079 -0500	rebase -i (squash): added devise and a seeds file
+1efff955176245f3c0a189cc0d9340a5244f0a28 1efff955176245f3c0a189cc0d9340a5244f0a28 William Davenport <bill.davenport@livingsocial.com> 1325522133 -0500	rebase -i (finish): returning to refs/heads/master
+1efff955176245f3c0a189cc0d9340a5244f0a28 1efff955176245f3c0a189cc0d9340a5244f0a28 William Davenport <bill.davenport@livingsocial.com> 1325522235 -0500	checkout: moving from master to 1efff95
+1efff955176245f3c0a189cc0d9340a5244f0a28 1efff955176245f3c0a189cc0d9340a5244f0a28 William Davenport <bill.davenport@livingsocial.com> 1325522235 -0500	rebase -i (finish): returning to refs/heads/master

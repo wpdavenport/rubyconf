@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Serial:</b>
+  <%= @ticket.serial %>
+</p>
+
+<p>
+  <b>Ticket type:</b>
+  <%= @ticket.ticket_type %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%= @ticket.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @ticket.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @ticket.email %>
+</p>
+
+<p>
+  <b>Attendee:</b>
+  <%= @ticket.attendee_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
+<%= link_to 'Back', tickets_path %>

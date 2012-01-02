@@ -1,0 +1,34 @@
+
+  <article class="drop-shadow lifted">
+    <header>
+      <h1>Results</h1>
+    </header>
+    <div class="body">
+      <table width="100%">
+        <tr>
+          <th>Serial</th>
+          <th>Ticket</th>
+          <th>First name</th>
+
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Attendee</th>
+          <th></th>
+        </tr>
+
+        <% unless @tickets.empty? %>
+          <% @tickets.each do |ticket| %>
+            <tr class="<%= cycle('alt', '') %> <%= ticket.registered? ? 'registered' : 'not-registered' %>">
+              <td><%= ticket.serial %></td>
+              <td><%= ticket.ticket_type %></td>
+              <td><%= ticket.first_name %></td>
+              <td><%= ticket.last_name %></td>
+              <td><%= ticket.email %></td>
+              <td><%= ticket.attendee.company || "#{ticket.attendee.first_name} #{ticket.attendee.last_name}" %></td>
+              <td><%= ticket.registered? ? "Registered" : link_to("REGISTER", flows_register_path(:ticket_id => ticket.id), :method => :post, :class => "button skip", :confirm => "Register #{ticket.fullname}" ) %></td>
+            </tr>
+          <% end %>
+        <% end %>
+      </table>
+    </div>
+  </article>

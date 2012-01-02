@@ -1,0 +1,3 @@
+json example
+
+[{"booking":{"price":350.0,"serial":"yxld0ofj2w2d3vx5exfc","company":"EXPERIENCE IT LTD","event_id":925,"tickets":[{"ticket":{"serial":"G2B01C","company":"EXPERIENCE IT LTD","ticket_type":"REGULAR","last_name":"Byrne","first_name":"Gerard","email":"gbyrne@experience.ie"}}],"phone":"+353-86-6006000","last_name":"Byrne","billing_address":"EXPERIENCE IT LTD\r\n11 THE GALLOPS\r\nNAAS\r\nCO. KILDARE\r\nIRELAND","status":"ok","first_name":"Gerard","email":"gbyrne@experience.ie"}}]

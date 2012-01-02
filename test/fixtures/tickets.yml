@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  serial: MyString
+  ticket_type: MyString
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  attendee_id: 1
+
+two:
+  serial: MyString
+  ticket_type: MyString
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  attendee_id: 1

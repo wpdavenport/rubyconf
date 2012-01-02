@@ -1,0 +1,16 @@
+
+  <article class="drop-shadow lifted">
+    <header>
+      <h1>Is <span><%= @ticket.first_name %> <%= @ticket.last_name %></span> correct?</h1>
+    </header>
+    <div class="body">
+      <dl>
+        <dt>Serial</dt><dd> <%= @ticket.serial %></dd>
+        <dt>Ticket Type</dt><dd> <%= @ticket.ticket_type %></dd>
+        <dt>Email</dt><dd> <%= @ticket.email %></dd>
+        <dt>Attendee</dt><dd> <%= @ticket.attendee.company || "#{@ticket.attendee.first_name} #{@ticket.attendee.last_name}" %></dd>
+      </dl>
+      <p><%= link_to("REGISTER", flows_register_path(:ticket_id => @ticket.id), :method => :post, :class => "button skip") %></p>
+      
+    </div>  
+  </article>

@@ -1,0 +1,11 @@
+
+<article class='drop-shadow lifted'>
+  <header>
+    <h1>Search</h1>
+  </header>
+  <div class='body'>
+    <%= form_tag flows_results_path, :method => :get do %>
+      <p><%= text_field_tag :term, nil, :id => 'search_term', :placeholder => "Search by company, last name, or ticket number" %> <%= submit_tag "Go", :class => 'button skip' %></p>
+    <% end %>
+  </div>
+</article>

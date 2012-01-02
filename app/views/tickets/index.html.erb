@@ -1,0 +1,33 @@
+<h1>Listing tickets</h1>
+
+<table>
+  <tr>
+    <th>Serial</th>
+    <th>Ticket type</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Email</th>
+    <th>Attendee</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tickets.each do |ticket| %>
+  <tr>
+    <td><%= ticket.serial %></td>
+    <td><%= ticket.ticket_type %></td>
+    <td><%= ticket.first_name %></td>
+    <td><%= ticket.last_name %></td>
+    <td><%= ticket.email %></td>
+    <td><%= ticket.attendee_id %></td>
+    <td><%= link_to 'Show', ticket %></td>
+    <td><%= link_to 'Edit', edit_ticket_path(ticket) %></td>
+    <td><%= link_to 'Destroy', ticket, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @posts %>
+<br />
+
+<%= link_to 'New Ticket', new_ticket_path %>
