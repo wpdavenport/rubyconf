@@ -3,12 +3,12 @@ Rubyconf::Application.routes.draw do
   resources :tickets
   resources :attendees
   
-  match 'flows/results', :controller => :flows, :action => 'results'
-  match 'flows/confirmation', :controller => :flows, :action => 'confirmation'
-  match 'flows/retry', :controller => :flows, :action => 'retry'
-  match 'flows/register', :controller => :flows, :action => 'register'
-  match 'flows/registered', :controller => :flows, :action => 'registered'
-  match 'flows/index', :controller => :flows, :action => 'index'
+  get 'flows/results', :controller => :flows, :action => 'results'
+  get 'flows/confirmation', :controller => :flows, :action => 'confirmation'
+  get 'flows/retry', :controller => :flows, :action => 'retry'
+  get 'flows/register', :controller => :flows, :action => 'register'
+  get 'flows/registered', :controller => :flows, :action => 'registered'
+  get 'flows/index', :controller => :flows, :action => 'index'
   resources :flows
 
   root :to => 'tickets#index'

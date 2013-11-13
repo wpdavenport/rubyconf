@@ -5,3 +5,4 @@ log/*.log
 tmp/
 .sass-cache/
 db/rubyconf_json.txt
+db/migrate/.DS_Store

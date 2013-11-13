@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  company: MyString
-  last_name: MyString
-  first_name: MyString
-  email: MyString
-  phone: MyString
+  company: CompanyOne
+  last_name: mathers
+  first_name: jerry
+  email: company@one.com
+  phone: 555-555-5555
 
 two:
-  company: MyString
-  last_name: MyString
-  first_name: MyString
-  email: MyString
-  phone: MyString
+  company: CompanyTwo
+  last_name: walters
+  first_name: barbra
+  email: company@two.com
+  phone: 555-555-6400

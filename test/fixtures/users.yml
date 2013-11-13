@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  email: MyString
-  password_hash: MyString
+  email: jim@hotmail.com
+  encrypted_password: MyString
   password_salt: MyString
 
 two:
-  email: MyString
-  password_hash: MyString
+  email: jerry@microsoft.com
+  encrypted_password: MyString
   password_salt: MyString
