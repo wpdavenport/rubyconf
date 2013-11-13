@@ -6,10 +6,9 @@ Rubyconf::Application.routes.draw do
   get 'flows/results', :controller => :flows, :action => 'results'
   get 'flows/confirmation', :controller => :flows, :action => 'confirmation'
   get 'flows/retry', :controller => :flows, :action => 'retry'
-  get 'flows/register', :controller => :flows, :action => 'register'
   get 'flows/registered', :controller => :flows, :action => 'registered'
-  get 'flows/index', :controller => :flows, :action => 'index'
+  post 'flows/register', :controller => :flows, :action => 'register'
   resources :flows
 
-  root :to => 'tickets#index'
+  root :to => 'flows#index'
 end

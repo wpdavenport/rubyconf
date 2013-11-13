@@ -2,16 +2,16 @@
 
 one:
   serial: MyString
-  ticket_type: MyString
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  attendee_id: 1
+  ticket_type: Speaker
+  first_name: Evan
+  last_name: Walker
+  email: evan@rubyconf.org
+  attendee: one
 
 two:
   serial: MyString
-  ticket_type: MyString
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  attendee_id: 1
+  ticket_type: Attendee
+  first_name: Bently
+  last_name: Squire
+  email: bently@rubyconf.org
+  attendee: two

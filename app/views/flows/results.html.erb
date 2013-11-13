@@ -16,7 +16,9 @@
           <th></th>
         </tr>
 
-        <% unless @tickets.empty? %>
+        <% if @tickets.empty? %>
+					<td> Registrant not found </td>
+				<% else %>
           <% @tickets.each do |ticket| %>
             <tr class="<%= cycle('alt', '') %> <%= ticket.registered? ? 'registered' : 'not-registered' %>">
               <td><%= ticket.serial %></td>
@@ -29,6 +31,7 @@
             </tr>
           <% end %>
         <% end %>
+				<%= link_to "Search", flows_path %>
       </table>
     </div>
   </article>

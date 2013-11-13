@@ -2,8 +2,8 @@ class FlowsController < ApplicationController
   layout "flows"
 
   def results
-    attendee_results = Attendee.search(params[:term]).includes(:tickets).all || []
-    ticket_results = Ticket.search(params[:term]).all || []
+    attendee_results = Attendee.search(term_params).includes(:tickets).load || []
+    ticket_results = Ticket.search(params[:term]).load || []
 
     attendee_ticket_ids = attendee_results.map { |a| a.ticket_ids }.flatten if attendee_results
     ticket_ids = (attendee_ticket_ids + ticket_results.map(&:id)).compact.uniq
@@ -26,6 +26,12 @@ class FlowsController < ApplicationController
       flash[:notice] = "#{@ticket.first_name} #{@ticket.last_name} was already registered."
       redirect_to flows_path
     end
+  end
+  
+  private
+  
+  def term_params
+    params.require(:term) unless params[:term].empty?
   end
 
 end

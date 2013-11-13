@@ -4,6 +4,5 @@ class Attendee < ActiveRecord::Base
                             
   self.per_page = 20
 
-  # scope :search, -> { where(["UPPER(company) LIKE ? OR UPPER(last_name) LIKE ?", "%#{term}%", "%#{term}%"]) }
-  scope :search, -> { { conditions: ["UPPER(company) LIKE ? OR UPPER(last_name) LIKE ?", "%#{term}%", "%#{term}%"]  } }
+  scope :search, ->(term) { where(["UPPER(company) LIKE '#{term}' OR UPPER(last_name) LIKE '#{term}'"]) }
 end
