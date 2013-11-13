@@ -1,8 +1,14 @@
 require 'test_helper'
 
 class TicketsControllerTest < ActionController::TestCase
+  
   setup do
     @ticket = tickets(:one)
+    user = users(:one)
+    user.confirmed_at = Time.zone.now
+    user.save
+    @request.env["devise.mapping"] = Devise.mappings[:user]
+    sign_in user
   end
 
   test "should get index" do

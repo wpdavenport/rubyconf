@@ -5,3 +5,4 @@
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
 Rubyconf::Application.config.secret_token = 'f61ad0c770d6bfa7c96e38b692c29a36adea4b585da041d0ff496ba338b8bbf431690c4b98660b5c10a1d016444f8bd498d641d698d4a8d8637e03b0e7794cf9'
+Rubyconf::Application.config.secret_key_base = 'new secret key base'

@@ -21,7 +21,7 @@
     <td><%= attendee.phone %></td>
     <td><%= link_to 'Show', attendee %></td>
     <td><%= link_to 'Edit', edit_attendee_path(attendee) %></td>
-    <td><%= link_to 'Destroy', attendee, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Destroy', attendee, data: { confirm: 'Are you sure?' }, :method => :delete %></td>
   </tr>
 <% end %>
 </table>

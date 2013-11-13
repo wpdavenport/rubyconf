@@ -4,10 +4,12 @@ class Ticket < ActiveRecord::Base
 
   self.per_page = 20
   
-  scope :registered, :conditions => "registered_at IS NOT NULL"
+  # scope :registered, :conditions => "registered_at IS NOT NULL"
+  scope :registered, -> { where("registered_at IS NOT NULL")}
 
-  scope :search, lambda { |term| where(["UPPER(serial) LIKE ? OR UPPER(last_name) LIKE ? OR UPPER(email) LIKE ? OR UPPER(swapped_with) LIKE ?", "%#{term}%", "%#{term}%", "%#{term}%", "%#{term}%"]) }
-
+  # scope :search, -> { where(["UPPER(serial) LIKE ? OR UPPER(last_name) LIKE ? OR UPPER(email) LIKE ? OR UPPER(swapped_with) LIKE ?", "%#{term}%", "%#{term}%", "%#{term}%", "%#{term}%"]) }
+  scope :search, -> {{conditions: ["UPPER(serial) LIKE ? OR UPPER(last_name) LIKE ? OR UPPER(email) LIKE ? OR UPPER(swapped_with) LIKE ?", "%#{term}%", "%#{term}%", "%#{term}%", "%#{term}%"] }}
+  
   def registered?
     registered_at.present?
   end
