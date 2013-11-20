@@ -6,3 +6,6 @@ To import data use:
 ```
 rake db:fixtures:load 
 ```
+
+Notes:
+The original data model was based on imports from stagehq.com. This app was really designed to streamline the import and registration process. 
