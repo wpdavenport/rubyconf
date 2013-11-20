@@ -7,7 +7,8 @@ gem 'rails', '4.0.0'
 
 gem 'devise'
 gem 'json'
-gem 'sqlite3'
+# gem 'sqlite3'
+gem 'pg'
 gem 'will_paginate', '~> 3.0'
 
 group :production do
@@ -17,6 +18,8 @@ end
 group :development, :test do
   gem 'capistrano'
 end
+
+gem 'rails_12factor', group: :production
 
 # Gems used only for assets and not required
 # in production environments by default.
