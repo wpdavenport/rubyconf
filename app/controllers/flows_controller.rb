@@ -2,8 +2,8 @@ class FlowsController < ApplicationController
   layout "flows"
 
   def results
-    attendee_results = Attendee.search(term_params).includes(:tickets).load || []
-    ticket_results = Ticket.search(params[:term]).load || []
+    attendee_results = Attendee.search(term_params).includes(:tickets)
+    ticket_results = Ticket.search(term_params)
 
     attendee_ticket_ids = attendee_results.map { |a| a.ticket_ids }.flatten if attendee_results
     ticket_ids = (attendee_ticket_ids + ticket_results.map(&:id)).compact.uniq

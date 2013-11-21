@@ -4,5 +4,5 @@ class Attendee < ActiveRecord::Base
                             
   self.per_page = 20
 
-  scope :search, ->(term) { where(["LOWER(company) LIKE LOWER(?) OR LOWER(last_name) LIKE LOWER(?)", "%#{term}%", "%#{term}%"]) }
+  scope :search, ->(term) { where(["LOWER(company) LIKE LOWER(?)", "%#{term}%"]) }
 end
