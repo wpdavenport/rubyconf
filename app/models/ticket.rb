@@ -6,7 +6,7 @@ class Ticket < ActiveRecord::Base
   
   # scope :registered, :conditions => "registered_at IS NOT NULL"
   scope :registered, -> { where("registered_at IS NOT NULL")}
-  scope :search, ->(term) { where(["LOWER(serial) LIKE LOWER(?) OR LOWER(last_name) LIKE LOWER(?) OR UPPER(email) LIKE LOWER(?) OR UPPER(swapped_with) LIKE LOWER(?)", "%#{term}%", "%#{term}%", "%#{term}%", "%#{term}%"]) }
+  scope :search, ->(term) { where(["LOWER(serial) LIKE LOWER(?) OR LOWER(last_name) LIKE LOWER(?) OR LOWER(email) LIKE LOWER(?) OR LOWER(swapped_with) LIKE LOWER(?)", "%#{term}%", "%#{term}%", "%#{term}%", "%#{term}%"]) }
 
   def registered?
     registered_at.present?

@@ -1,5 +1,6 @@
 class FlowsController < ApplicationController
   layout "flows"
+  respond_to :json, :html
 
   def results
     attendee_results = Attendee.search(term_params).includes(:tickets)
@@ -9,6 +10,8 @@ class FlowsController < ApplicationController
     ticket_ids = (attendee_ticket_ids + ticket_results.map(&:id)).compact.uniq
 
     ticket_ids.empty? ? @tickets = [] : @tickets = Ticket.find(ticket_ids)
+    
+    respond_with @tickets
   end
 
   def confirmation
