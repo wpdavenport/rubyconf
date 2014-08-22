@@ -10,6 +10,9 @@ gem 'json'
 # gem 'sqlite3'
 gem 'pg'
 gem 'will_paginate', '~> 3.0'
+gem 'pry'
+gem 'better_errors'
+gem 'binding_of_caller'
 
 group :production do
   gem 'thin'

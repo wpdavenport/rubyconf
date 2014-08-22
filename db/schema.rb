@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20110928171828) do
+ActiveRecord::Schema.define(version: 20140822121423) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,6 +27,21 @@ ActiveRecord::Schema.define(version: 20110928171828) do
     t.string   "status"
     t.string   "serial"
     t.string   "price"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "partners", force: true do |t|
+    t.string   "private_key"
+    t.boolean  "sso_enabled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "sso_users", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "partner_id"
+    t.string   "sso_identifier"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

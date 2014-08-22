@@ -1,4 +1,5 @@
 Rubyconf::Application.routes.draw do
+  get "pingone/error"
   devise_for :users
   resources :tickets
   resources :attendees
@@ -9,6 +10,11 @@ Rubyconf::Application.routes.draw do
   get 'flows/registered', :controller => :flows, :action => 'registered'
   post 'flows/register', :controller => :flows, :action => 'register'
   resources :flows
+
+  namespace :sso do
+    get "pingone/error" => "pingone#error"
+    post 'pingone', to: "pingone#create"
+  end
 
   root :to => 'flows#index'
 end

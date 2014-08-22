@@ -1,0 +1,2 @@
+module Sso::PingoneHelper
+end

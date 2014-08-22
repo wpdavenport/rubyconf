@@ -4,4 +4,6 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :rememberable, :trackable, :validatable
 
+  has_many :sso_users
+  has_many :partners, :through => :sso_users
 end
